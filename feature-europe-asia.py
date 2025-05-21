@@ -11,3 +11,15 @@ class MurderStatsManager:
 
     def get_stats(self):
         return self.data
+
+
+if __name__ == "__main__":
+    stats = MurderStatsManager()
+
+    stats.add_data("Europe", "Estonia", "Tallinn", 5)
+    stats.add_data("Europe", "Finland", "Helsinki", 3)
+
+    stats.add_data("Asia", "Japan", "Tokyo", 8)
+
+    from pprint import pprint
+    pprint(stats.get_stats())
