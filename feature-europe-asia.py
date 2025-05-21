@@ -23,3 +23,16 @@ if __name__ == "__main__":
 
     from pprint import pprint
     pprint(stats.get_stats())
+
+### 1. get_city_stats(continent, country, city)
+
+#Возвращает данные об убийствах по указанному городу.
+
+### 2. remove_city(continent, country, city)
+
+#Удаляет указанный город из структуры self.data.
+
+### 3. **Добавь данные по Африке.**
+
+#1. Сделай минимум 2 коммита.
+#2. Выполни push в ветку feature-extensions.
